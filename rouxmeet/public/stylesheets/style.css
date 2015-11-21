@@ -75,7 +75,7 @@ h1 {
   font-size: 2.2rem;
   color: #1f7f9e;
   margin-bottom: .4rem;
-  /*border-bottom: 1px solid #819090;*/
+  border-bottom: 1px solid #819090;
   padding-top: 10px;
 }
 
@@ -93,7 +93,7 @@ h3 {
 }
 
 a {
-  /*text-decoration: underline;*/
+  text-decoration: underline;
   color: #536870;
 }
 a:hover {
@@ -146,12 +146,12 @@ footer {
 .speakers h3 {
   padding-top: 10px;
   padding-bottom: 5px;
-  /*border-bottom: 1px dotted #819090;*/
+  border-bottom: 1px dotted #819090;
   margin-bottom: 5px;
 }
 .speakers img {
   width: 120px;
-  /*float: left;*/
+  float: left;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -270,10 +270,10 @@ header .navigation ul.nav li:hover a {
     width: 100%;
     height: 450px;
     background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/helper.jpg?1378515912');
-    background: -webkit-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
-    background: -moz-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
-    background: -o-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
-    background: linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
+    background: -webkit-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('http://rouxme.herokuapp.com/images/misc/helper.jpg?1378515912');
+    background: -moz-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('http://rouxme.herokuapp.com/images/misc/helper.jpg?1378515912');
+    background: -o-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('http://rouxme.herokuapp.com/images/misc/helper.jpg?1378515912');
+    background: linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('http://rouxme.herokuapp.com/images/misc/helper.jpg?1378515912');
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -418,3 +418,4 @@ header .navigation ul.nav li:hover a {
     padding-right: 0;
   }
 }
+
