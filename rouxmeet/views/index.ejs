@@ -5,9 +5,25 @@
   
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
     
+    <% include partials/template/header.ejs %>
+    
+    <section class="layout">
+      
+      <div class="primary">
+        
+         <div>ipsom</div>
+        
+      </div><!-- primary -->
+      <aside class="secondary">
+        
+         <div>ipsom</div>
+      </aside><!-- secondary -->
+      
+      
+    </section><!-- layout -->
+    
+    <% include partials/template/footer.ejs %>
     <% include partials/template/jsdefaults.ejs %>
   </body>
   
