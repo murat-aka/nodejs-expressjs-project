@@ -1,6 +1,20 @@
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
+
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Merriweather, serif;
+  font-size: 1.2rem;
+  line-height: 160%;
+  background: #eae3cb;
+  color: #0a2933;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bree Serif, serif;
+  font-weight: normal;
+  color: #475b62;
+  text-shadow: #fcf4dc 1px 1px;
 }
 
 a {
